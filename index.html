@@ -33,8 +33,8 @@
   <body>
     <header>
       <div class="user">
-        <img src="Abhi's Professional dp.png" alt="" />
-        <h3 class="name">Abhi</h3>
+        <img class="home-img" src="Abhi's Professional dp.png" alt="" />
+        <h3 class="name" id="user-detail-name">Abhi</h3>
         <p class="post">Node Backend Developer</p>
       </div>
 
@@ -46,7 +46,7 @@
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">My Skills</a></li>
           <li><a href="#contact">Contact</a></li>
-          <li><a href="https://1drv.ms/b/s!AjHO5GHrTjbxvHBtz2EyHxWPaBlX?e=ARjN5S" target="blank">Resume</a></li>
+          <li><a id="resume-link-2" class="nav-link resume" href="https://1drv.ms/b/s!AjHO5GHrTjbxvHBtz2EyHxWPaBlX?e=ARjN5S" target="blank">Resume</a></li>
         </ul>
       </nav>
     </header>
@@ -55,8 +55,8 @@
 
     <section class="home nav-link home" id="home">
       <h3>Hi there !</h3>
-      <h1>I'm <span id="deshpandey">Abhi</span></h1>
-      <p>
+      <h1>I'm <span id="user-detail-name">Abhi</span></h1>
+      <p id="user-detail-intro" >
         Aspiring Node Backend Developer with a specialization in Node.js,Express.js, MongoDB, REST APIs,
         Git/GitHub, Mongoose, HTML, CSS, JavaScript, design. Self-motivated and curious,
         with a keen interest in building websites looking forward to honing my skills in a
@@ -69,17 +69,17 @@
 
     <section class="about nav-link about" id="about">
       <h1 class="heading"><span>About </span>Me</h1>
-      <img src="Abhi's Professional dp.png" alt="" id="mypic" />
+      <img class="home-img" src="Abhi's Professional dp.png" alt="" id="mypic" />
       <div class="row">
         <div class="info">
-          <h3><span>Name : </span>Abhi</h3>
+          <h3><span id="user-detail-name">Name : </span>Abhi</h3>
           <h3><span>Age : </span>19</h3>
           <h3><span>Post : </span>Node Backend Developer</h3>
           <h3><span>Qualification : </span>Higher Intermediate</h3>
           <h3><span>Language : </span>English</h3>
           <a href="#resume">
-          <a href="https://1drv.ms/b/s!AjHO5GHrTjbxvHBtz2EyHxWPaBlX?e=ARjN5S" download="Abhi_Resume" target="_blank"
-            ><button class="btn">
+          <a id="resume-link-1" class="" href="https://1drv.ms/b/s!AjHO5GHrTjbxvHBtz2EyHxWPaBlX?e=ARjN5S" download="Abhi_Resume" target="_blank"
+            ><button class="btn"  id="resume-button-1">
               Download Resume <i class="fas fa-download"></i></button
           ></a>
         </a>
@@ -136,74 +136,74 @@
       <div class="box-container">
         <!-- <div class="main"> -->
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://imgs.search.brave.com/ONyyr8kaz7jLCbei6YDUhVPY5NtLtY93qGBA5IoKkew/rs:fit:800:800:1/g:ce/aHR0cHM6Ly9wNy5o/aWNsaXBhcnQuY29t/L3ByZXZpZXcvMzA2/LzM3LzE2Ny9ub2Rl/LWpzLWphdmFzY3Jp/cHQtd2ViLWFwcGxp/Y2F0aW9uLWV4cHJl/c3MtanMtY29tcHV0/ZXItc29mdHdhcmUt/b3RoZXJzLmpwZw"
             alt=""
           />
-          <h3>Node.js</h3>
+          <h3 class="skills-card-name">Node.js</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://imgs.search.brave.com/3zyf8MwTySSV1u97JOmnQ9kOm9MQxKJTNHDQn9153Dc/rs:fit:750:750:1/g:ce/aHR0cHM6Ly9yZXMu/Y2xvdWRpbmFyeS5j/b20vbHdnYXRzYnkv/Zl9hdXRvL3d3dy91/cGxvYWRzLzIwMjAv/MTEvbW9uZ29kYi5w/bmc"
             alt=""
           />
-          <h3>MongoDB</h3>
+          <h3 class="skills-card-name">MongoDB</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://imgs.search.brave.com/OJqj0MvCdchdbDCwbvju-sDde9bdJ-iE_znYVVvlbaY/rs:fit:900:900:1/g:ce/aHR0cHM6Ly9saWJy/YXJ5Lmtpc3NjbGlw/YXJ0LmNvbS8yMDE4/MTEyMy9veXEva2lz/c2NsaXBhcnQtc3Fs/LWRiLWNsaXBhcnQt/bWljcm9zb2Z0LWF6/dXJlLXNxbC1kYXRh/YmFzZS1kOGZlODZh/ZmQ3N2VlMTI0Lmpw/Zw"
             alt=""
           />
-          <h3>SQL</h3>
+          <h3 class="skills-card-name">SQL</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://imgs.search.brave.com/SL3i7a57uH3nMKgWOutVaVYQ1RCPqq4rTbP6J33xfAM/rs:fit:750:1000:1/g:ce/aHR0cHM6Ly9paDEu/cmVkYnViYmxlLm5l/dC9pbWFnZS40Mzg5/MDgyNDQuNjE0NC9i/ZyxmOGY4ZjgtZmxh/dCw3NTB4LDA3NSxm/LXBhZCw3NTB4MTAw/MCxmOGY4ZjgudTIu/anBn"
             alt=""
           />
-          <h3>Express.js</h3>
+          <h3 class="skills-card-name">Express.js</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="GitHub-Mark.png"
             alt=""
           />
-          <h3>Github</h3>
+          <h3 class="skills-card-name">Github</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://chiranjeev-thapliyal.vercel.app/svg/amazon-web-services.svg"
             alt=""
           />
-          <h3>AWS</h3>
+          <h3 class="skills-card-name">AWS</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://portfolio-saravanakumarjn.vercel.app/static/media/html_5.e7638e36.svg"
             alt=""
           />
-          <h3>HTML</h3>
+          <h3 class="skills-card-name">HTML</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://portfolio-saravanakumarjn.vercel.app/static/media/css_3.e7a9de36.svg"
             alt=""
           />
-          <h3>CSS3</h3>
+          <h3 class="skills-card-name">CSS3</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://portfolio-saravanakumarjn.vercel.app/static/media/javascript.fd46ca41.svg"
             alt=""
           />
-          <h3>JavaScript</h3>
+          <h3 class="skills-card-name">JavaScript</h3>
         </div>
         <div class="box">
-          <img
+          <img class="skills-card-img"
             src="https://media.istockphoto.com/vectors/flowchart-icon-on-a-black-background-vector-id488916446?k=20&m=488916446&s=612x612&w=0&h=OQeEPHSxRq_wKF4bF_crFzzcTeK0aqQBaevYYIGHTIw="
             alt=""
           />
-          <h3>DSA</h3>
+          <h3 class="skills-card-name">DSA</h3>
         </div>
         <!-- </div> -->
       </div>
@@ -219,13 +219,13 @@
       <div  class="statistics">
       <div class="img1"> 
         
-       <img  src="https://github-readme-streak-stats.herokuapp.com?user=abhi844735" alt="">
+       <img  id="github-streak-stats"  src="https://github-readme-streak-stats.herokuapp.com?user=abhi844735" alt="">
     
     
-       <img src="https://github-readme-stats.vercel.app/api?username=abhi844735" alt="">
+       <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api?username=abhi844735" alt="">
       </div>
        <div class="img2">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs?username=abhi844735&show_icons=true&locale=en&layout=compact" alt="abhi844735" alt="">
+        <img  id="github-stats-card" src="https://github-readme-stats.vercel.app/api/top-langs?username=abhi844735&show_icons=true&locale=en&layout=compact" alt="abhi844735" alt="">
       
         </div>
     </div>
@@ -239,8 +239,8 @@
         <div class="content">
           <h3 class="title">Contact Info</h3>
           <div class="info">
-            <h3><i class="fas fa-envelope"></i>pabhi4407@gmail.com</h3>
-            <h3><i class="fas fa-phone"></i> +91-8447351108</h3>
+            <h3  id="contact-email"><i class="fas fa-envelope"></i>pabhi4407@gmail.com</h3>
+            <h3 id="contact-phone"><i class="fas fa-phone"></i> +91-8447351108</h3>
             <h3>
               <i class="fas fa-map-marker-alt"></i> Delhi India.
             </h3>
@@ -264,8 +264,8 @@
         </form>
       </div>
       <div class="conct">
-        <a href="https://github.com/abhi844735" target="_blank" >Github <i width="60px" class="fa-brands fa-github"></i></a>
-        <a href="https://www.linkedin.com/in/abhi-panchal-29721423a/" target="_blank" >Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a  id="contact-github" href="https://github.com/abhi844735" target="_blank" >Github <i width="60px" class="fa-brands fa-github"></i></a>
+        <a  id="contact-linkedin" href="https://www.linkedin.com/in/abhi-panchal-29721423a/" target="_blank" >Linkedin <i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </div>
     
   
