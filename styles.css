@@ -585,17 +585,21 @@ rect.ContributionCalendar-day[data-level='4'] {
 .statistics{
   display: flex;
   width: 100%;
-  height: 370px;
+  height: auto;
   margin-top: 30px;
+  /* margin-bottom: 30px; */
   border: 2px solid #90a4ae;
   background-color: #90a4ae;
 }
 .statistics .img1{
   display: flex;
   /* border: 2px solid red; */
-  height: 140px;
+  height: auto;
+  flex-direction: column;
   gap: 30px;
   margin-top: 30px;
+  margin-bottom: 30px;
+  margin: auto;
   
 }
 
@@ -813,9 +817,13 @@ text.ContributionCalendar-label {
   }
   .skill .box-container .box{
     width: 30%;
+    margin-top: 35px;
     height: 13rem;
     border: 3px solid red;
     
+  }
+  #skills{
+    margin-top: 400px;
   }
   .conct a{
     font-size: 14px;
@@ -823,4 +831,8 @@ text.ContributionCalendar-label {
   .calen img{
     width: 175px;
   }
+  /* .statistics .img1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  } */
 }
