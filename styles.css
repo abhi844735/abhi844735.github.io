@@ -247,6 +247,9 @@ header .navbar ul li a:hover {
   position: relative;
   
 }
+#resume-button-1{
+  width: 100%;
+}
 
 .education .box-container .box span{
   font-size: 1.3rem;
