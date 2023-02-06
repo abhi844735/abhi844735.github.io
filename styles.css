@@ -47,7 +47,7 @@ body {
  
 }
 section {
-  min-height: 100vh;
+  min-height: 70vh;
   padding: 1rem;
 }
 .btn {
@@ -226,6 +226,9 @@ header .navbar ul li a:hover {
   margin-left: 400px;
   border: 4px solid gray;
 }
+.education{
+  height: 50vh;
+}
 
 .education .box-container{
   display: flex;
@@ -237,7 +240,7 @@ header .navbar ul li a:hover {
 }
 .education .box-container .box{
   width: 27rem;
-  height: 200px;
+  height: 150px;
   margin: 4rem 1rem;
   padding-left: 4rem;
   border-left: .2rem solid #fff;
@@ -798,9 +801,11 @@ text.ContributionCalendar-label {
   }
   .about .row .counter .box {
     width: 100%;
+    
   }
   .education .box-container .box{
     width: 100%;
+    
   }
   .project .box-container .box{
     width: 100%;
