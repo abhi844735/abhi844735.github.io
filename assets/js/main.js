@@ -194,9 +194,9 @@ themeButton.addEventListener('click', () => {
 // resume btns fucntion
 
 document.getElementById("resume-button-1").onclick = () => {
-    window.open('https://onedrive.live.com/?authkey=%21AG3PYTIfFY9oGVc&cid=F1364EEB61E4CE31&id=F1364EEB61E4CE31%217792&parId=root&o=OneUp');
+    window.open('assets/pdf/Abhi_Resume.pdf');
 }
 
 document.getElementById("resume-button-2").onclick = () => {
-    window.open('https://onedrive.live.com/?authkey=%21AG3PYTIfFY9oGVc&cid=F1364EEB61E4CE31&id=F1364EEB61E4CE31%217792&parId=root&o=OneUp');
+    window.open('assets/pdf/Abhi_Resume.pdf');
 }
