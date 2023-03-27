@@ -193,10 +193,10 @@ themeButton.addEventListener('click', () => {
 
 // resume btns fucntion
 
-document.getElementById("resume-button-1").onclick = () => {
-    window.open('assets/pdf/Abhi_Resume.pdf');
-}
+// document.getElementById("resume-button-1").onclick = () => {
+//     window.open('assets/pdf/Abhi_Resume.pdf');
+// }
 
-document.getElementById("resume-button-2").onclick = () => {
-    window.open('assets/pdf/Abhi_Resume.pdf');
-}
+// document.getElementById("resume-button-2").onclick = () => {
+//     window.open('assets/pdf/Abhi_Resume.pdf');
+// }
