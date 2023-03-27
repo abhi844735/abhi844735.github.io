@@ -54,12 +54,15 @@
             </li>
 
             <li class="nav__item">
-              <button id="resume-button-1" class="nav-link resume" onclick="resume()">
-                <a href="assets/pdf/Abhi_Resume.pdf" id="resume-link-1"  download="assets/pdf/Abhi_Resume.pdf">
-                  Resume
-                </a>
-               </button>
-      
+              <a
+                id="resume-button-1"
+                download
+                class="nav__link nav-link resume"
+                target="_blank"
+                href="./assets/pdf/Abhi_Resume.pdf"
+              >
+                <i class="uil uil-file-blank nav__icon"></i>Resume
+              </a>
             </li>
           </ul>
           <i class="uil uil-times nav__close nav__icon" id="nav-close"></i>
@@ -138,10 +141,6 @@
                 </g>
               </svg>
             </div>
-            <button onclick="resume()"  id="resume-button-2" >
-              <a id="resume-link-2" href="./assets/pdf/Abhi_Resume.pdf" target="_blank" download="Abhi_Resume.pdf">
-             Resume </a>
-         </button>
             <!------------------------------------------------------ summary ---------------------------------------------------------------------- -->
             <div class="home__data">
               <h1 id="user-detail-name" class="home__title">
@@ -476,16 +475,9 @@
             </div>
 
             <div class="about__buttons" id="resume-button-2">
-<<<<<<< HEAD
-              <button onclick="resume()"  id="resume-button-2" >
-                <a id="resume-link-2" href="assets/pdf/Abhi_Resume.pdf" target="_blank" download="assets/pdf/Abhi_Resume.pdf">
-               Resume </a>
-           </button>
-  
-=======
               <a
                 id="resume-button-2"
-                download="Abhi_Resume.pdf"
+                download=""
                 href="assets/pdf/Abhi_Resume.pdf"
                 target="_blank"
                 class="button button--flex"
@@ -493,7 +485,6 @@
                 Download CV<i class="uil uil-cloud-download button__icon"></i
                 >&nbsp&nbsp
               </a>
->>>>>>> 47ad731eb058cb6719b5d13a8975e80f045769f7
             </div>
           </div>
         </div>
@@ -503,8 +494,8 @@
         href="assets/pdf/Abhi_Resume.pdf"
         id="resume-link-1"
         class="nav__link nav-link resume"
-        download="Abhi_Resume.pdf"
-        onclick="window.open('assets/pdf/Abhi_Resume.pdf')"
+        download="Abhi-Resume"
+        onclick="window.open('https://onedrive.live.com/?authkey=%21AG3PYTIfFY9oGVc&cid=F1364EEB61E4CE31&id=F1364EEB61E4CE31%217792&parId=root&o=OneUp')"
       >
         <i class="uil uil-message nav_icon"></i> Resume
       </a>
@@ -1050,9 +1041,7 @@
   function resume(){
   window.open("assets/pdf/Abhi_Resume.pdf","_blank")
 }
-function resume(){
-  window.open("Abhi_Resume.pdf","_blank")
-}
+
 </script>
 
 <script src="assets/js/swiper-bundle.min.js"></script>
